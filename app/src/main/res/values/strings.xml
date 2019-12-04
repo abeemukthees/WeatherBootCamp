@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="city_name">City name</string>
+    <string name="search">Search</string>
+    <string name="toast_error_invalid_city_name">Invalid city name!</string>
+    <string name="toast_error_getting_data">Error getting data</string>
+    <string name="toast_error_input_missing">Required input data is missing</string>
 </resources>

@@ -29,11 +29,6 @@ object NetworkService {
     }
 
     fun getDailyForecastData(latitude: Double, longitude: Double): Call<DailyForecastData> {
-        return networkApiService.getDailyForecastData(
-            latitude = latitude,
-            longitude = longitude,
-            apiKey = BuildConfig.API_KEY,
-            units = "metric"
-        )
+        TODO()
     }
 }

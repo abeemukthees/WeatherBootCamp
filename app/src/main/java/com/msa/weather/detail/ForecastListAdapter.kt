@@ -42,7 +42,6 @@ class ForecastListAdapter : RecyclerView.Adapter<ForecastItemViewHolder>() {
     }
 
     fun setData(items: List<DailyForecastData.Item>) {
-        this.items = items
-        notifyDataSetChanged()
+        TODO()
     }
 }

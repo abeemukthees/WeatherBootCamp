@@ -1,7 +1,6 @@
 package com.msa.weather.network
 
 import com.msa.weather.network.poko.CurrentWeatherData
-import com.msa.weather.network.poko.DailyForecastData
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -17,12 +16,4 @@ interface NetworkApiService {
         @Query("units") units: String,
         @Query("appid") apiKey: String
     ): Call<CurrentWeatherData>
-
-    @GET("forecast/daily")
-    fun getDailyForecastData(
-        @Query("lat") latitude: Double,
-        @Query("lon") longitude: Double,
-        @Query("units") units: String,
-        @Query("appid") apiKey: String
-    ): Call<DailyForecastData>
 }
